@@ -44,10 +44,9 @@ app.use('/address', addressRoutes);
 
 app.use('/api', (req, res, next) => {
     res.status(200).json({
-        message: 'Hello Word!'
+        message: 'API Funcionando!'
     })
 });
-
 
 app.use((req,res,next) => {
     const error = new Error('Not Found');
