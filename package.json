@@ -1,0 +1,26 @@
+{
+  "name": "pos-unipar-trabalho-node",
+  "version": "1.0.0",
+  "description": "Trabalho de conclusao da materia NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evertonab/pos-unipar-trabalho-node.git"
+  },
+  "author": "Everton Alan Busse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evertonab/pos-unipar-trabalho-node/issues"
+  },
+  "homepage": "https://github.com/evertonab/pos-unipar-trabalho-node#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6",
+    "morgan": "^1.10.0"
+  }
+}
